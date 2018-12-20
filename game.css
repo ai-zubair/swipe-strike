@@ -1,0 +1,228 @@
+body{
+    background-color:rgba(241, 241, 241, 0.945);
+    background-attachment:fixed;
+    display: grid;
+    font-family:Dosis;
+    margin:0px;
+
+}
+#game{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+#cord{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    max-width: 600px;
+    text-align: center;
+    /* padding: 0px 0px 0px 15px; */
+    /* margin: 80px 0px 0px 600px;  */
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px 1px rgba(83, 83, 83,0.4);
+    font-family:Dosis;
+    font-weight: bolder;
+}
+#xcord{
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 0px 0px 10px 4px #c4c4c4;
+}
+#ycord{
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 0px 0px 10px 4px #c4c4c4;
+}
+/* #fac{
+    overflow-y: scroll;
+} */
+#fact{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+#fac{
+    /* margin-left: 5px; */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 0px 0px 10px 4px #c4c4c4;
+}
+#fac1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+#sum{
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 0px 0px 10px 4px #c4c4c4;
+}
+#player{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+#data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+#data1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin-right: 20px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px 1px rgba(83, 83, 83,0.4);
+    font-family:Dosis;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+
+}
+#but{
+    border-radius: 5px;
+    box-shadow:4px 4px 12px 1px  #c4c4c4;
+    margin: 0px 0px 0px 5px;
+    font-family: Dosis;
+    color:white;
+    font-size: larger;
+    font-weight: 600;
+    border:none;
+    background-color:rgb(0, 247, 255);
+}
+.txt{
+    margin-bottom: 2px;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    border-bottom:2px solid #c4c4c4;
+    font-family:Dosis;
+    font-size:large;
+}
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+#tim{
+    margin: 0px;    
+    font-size: 120px;
+    color: #fff;
+}
+#timer{
+    margin-left: 20px;
+    background-color:greenyellow;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px 1px rgba(83, 83, 83,0.4);
+    font-family:Dosis;
+    font-weight: bolder;
+    padding: 15px;
+    text-align: center;
+}
+.timd{
+    margin :0px;
+    color: white;
+}
+.up{
+    margin: 0px;
+    color: white;
+    font-size:70px;
+}
+#result{
+    padding:10px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px 1px rgba(83, 83, 83,0.4);
+    font-family:Dosis;
+    font-weight: bolder;   
+}
+#over{
+    margin: 0px;
+    font-size:100px;
+    color:rgb(163, 59, 59);
+    font-weight: bolder;
+}
+#combo{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+#supercombo{
+    /* margin-top: 200px; */
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+#possib{
+    /* display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    justify-content: center; */
+    /* max-width: 916px; */
+    text-align: center;
+    padding: 10px;
+    margin-top:20px; 
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px 1px rgba(83, 83, 83,0.4);
+    font-family:Dosis;
+    font-weight: bolder;
+}
+.found{
+
+    margin-right: 5px;
+}
+#score{
+    margin: 0px;
+    font-size: 22px;
+    padding:5px;
+    border-radius: 10px;
+}
+#greet{
+    margin: 0px;
+    font-size:20px;
+}
+#play{
+    padding:5px;
+    box-shadow:4px 4px 12px 1px  #c4c4c4;
+    outline: none;
+    border: none;
+    background-color:rgb(0, 247, 255);
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    width:160px;
+    border-radius: 10px;
+}
+#name{
+    margin: 0px;
+    font-family: Dosis;
+    font-size:30px;
+    color:rgb(241, 238, 238);
+}
+#pid{
+    font-size: 20px;
+}
